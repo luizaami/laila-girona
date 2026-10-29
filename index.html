@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Laila · Estètica i Quiromassatge Girona</title>
+<meta name="description" content="Estètica i quiromassatge al centre de Girona: massatges descontracturants, drenants, amb olis essencials, tractaments facials, maderoteràpia, manicura i depilació. 4,9 ★ a Google.">
+<meta name="theme-color" content="#F4EDE2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Laila Estètica i Quiromassatge","founder":"Laila Martin Vinyals","telephone":"+34669445109","address":{"@type":"PostalAddress","streetAddress":"Travessia de la Creu, 7","postalCode":"17002","addressLocality":"Girona","addressCountry":"ES"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"53"},"sameAs":["https://www.instagram.com/lailaesteticaquiromassatge/"]}
+</script>
+<style>
+:root{
+  --linen:#F4EDE2; --wheat:#E6D3B3; --wheat2:#D6BC91; --clay:#B86B4B; --clay2:#9A5236; --earth:#4A3527; --ink:#2C2019;
+  --mute:rgba(44,32,25,.62); --line:rgba(44,32,25,.14);
+  --serif:'Fraunces',Georgia,serif; --sans:'Figtree',system-ui,sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1); --g:clamp(18px,4vw,52px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:hidden;overflow-x:clip}
+body{margin:0;background:var(--linen);color:var(--ink);font:400 16.5px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:300;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+::selection{background:var(--wheat2)}
+.wrap{width:min(1240px,100%);margin:0 auto;padding:0 var(--g)}
+.section{padding:clamp(100px,12vw,170px) 0;position:relative}
+.eyebrow{font:600 11.5px/1 var(--sans);letter-spacing:.3em;text-transform:uppercase;color:var(--clay2);margin:0 0 20px;display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:'🌾';font-size:14px;letter-spacing:0}
+.h2{font:300 clamp(44px,6.2vw,96px)/1 var(--serif);letter-spacing:-.02em;margin:0}
+.h2 em{font-style:italic;color:var(--clay)}
+.lead{font-size:clamp(16.5px,1.3vw,19px);color:var(--mute);max-width:52ch;margin:22px 0 0}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;height:54px;padding:0 26px;border-radius:999px;font:600 14px var(--sans);letter-spacing:.02em;overflow:hidden;isolation:isolate;transition:color .5s var(--ease),transform .5s var(--ease)}
+.btn::after{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;transform:translateY(101%);transition:transform .6s var(--ease)}
+.btn:hover::after{transform:none}
+.btn svg{width:17px;height:17px}
+.btn-clay{background:var(--clay);color:#fff}
+.btn-clay::after{background:var(--earth)}
+.btn-line{border:1px solid currentColor}
+.btn-line::after{background:var(--earth)}
+.btn-line:hover{color:var(--linen)}
+[data-reveal]{opacity:0;transform:translateY(30px);transition:opacity 1.2s var(--ease),transform 1.3s var(--ease);transition-delay:var(--d,0s)}
+[data-reveal].in{opacity:1;transform:none}
+
+/* Intro */
+.intro{position:fixed;inset:0;z-index:200;background:var(--earth);color:var(--wheat);display:grid;place-items:center;transition:opacity 1s var(--ease) .2s,visibility 0s 1.2s}
+.intro.done{opacity:0;visibility:hidden}
+.intro svg{width:min(360px,70vw);overflow:visible}
+.intro path{fill:none;stroke:var(--wheat);stroke-width:1.4;stroke-linecap:round;stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.8s var(--ease) forwards}
+.intro text{font:italic 300 64px var(--serif);fill:var(--wheat);opacity:0;animation:fadeIn 1s var(--ease) .9s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fadeIn{to{opacity:1}}
+
+/* Nav */
+.nav{position:fixed;inset:0 0 auto;z-index:100;transition:background .6s,transform .7s var(--ease),box-shadow .6s}
+.nav.solid{background:rgba(244,237,226,.86);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 1px 0 var(--line)}
+.nav.hide{transform:translateY(-100%)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:18px;height:80px}
+.logo b{display:block;font:italic 300 32px/1 var(--serif);letter-spacing:-.01em}
+.logo small{display:block;font:600 8.5px/1 var(--sans);letter-spacing:.34em;text-transform:uppercase;color:var(--clay2);margin-top:4px}
+.nav-links{display:flex;gap:24px}
+.nav-links a{font:500 14px var(--sans);position:relative;white-space:nowrap}
+.nav-links a::after{content:'';position:absolute;left:0;right:0;bottom:-4px;height:1px;background:var(--clay);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.nav-links a:hover::after{transform:scaleX(1);transform-origin:left}
+.nav-r{display:flex;align-items:center;gap:10px}
+.lang{display:inline-flex;padding:3px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.4)}
+.lang button{height:30px;min-width:38px;padding:0 10px;border-radius:999px;font:600 11.5px var(--sans);letter-spacing:.08em;transition:background .3s,color .3s}
+.lang button[aria-pressed="true"]{background:var(--earth);color:var(--linen)}
+.nav-cta{height:44px;padding:0 20px;font-size:13px}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);place-items:center}
+.burger span{display:block;width:18px;height:1.5px;background:var(--ink);box-shadow:0 6px 0 var(--ink),0 -6px 0 var(--ink)}
+.mnav{position:fixed;inset:0;z-index:110;background:var(--earth);color:var(--linen);padding:110px var(--g) 40px;display:flex;flex-direction:column;justify-content:space-between;clip-path:inset(0 0 100% 0);transition:clip-path .9s var(--ease);visibility:hidden}
+.mnav.open{clip-path:inset(0);visibility:visible}
+.mnav ul{list-style:none;margin:0;padding:0}
+.mnav li a{display:block;font:300 clamp(40px,11vw,60px)/1.18 var(--serif);opacity:0;transform:translateY(20px);transition:opacity .6s,transform .7s var(--ease)}
+.mnav.open li a{opacity:1;transform:none;transition-delay:calc(.3s + var(--k)*.06s)}
+.mnav li a:hover{font-style:italic;color:var(--wheat)}
+.mclose{position:absolute;top:18px;right:var(--g);height:46px;padding:0 20px;border-radius:999px;border:1px solid rgba(244,237,226,.5);font-weight:600}
+.mnav p{margin:0;opacity:.8}
+
+/* Hero */
+.hero{min-height:100svh;padding:120px 0 60px;display:grid;align-items:center;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,80px);align-items:center}
+.hero h1{margin:0;font:300 clamp(58px,8.4vw,138px)/.95 var(--serif);letter-spacing:-.03em}
+.hero h1 em{font-style:italic;color:var(--clay)}
+.hero h1 .l{display:block;overflow:hidden;padding-bottom:.05em}
+.hero h1 .l>span{display:inline-block;transform:translateY(110%);transition:transform 1.4s var(--ease);transition-delay:var(--d)}
+.ready .hero h1 .l>span{transform:none}
+.hero .sub{margin:26px 0 0;color:var(--mute);font-size:clamp(16.5px,1.35vw,19px);max-width:44ch;opacity:0;transition:opacity 1.2s .8s}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px;opacity:0;transform:translateY(14px);transition:1.2s var(--ease) .9s}
+.hero-rates{display:flex;gap:26px;flex-wrap:wrap;margin-top:36px;opacity:0;transition:opacity 1.2s 1.05s}
+.ready .hero .sub,.ready .hero-ctas,.ready .hero-rates{opacity:1;transform:none}
+.rt{display:flex;align-items:center;gap:12px}
+.rt b{font:300 44px/1 var(--serif)}
+.rt span{font-size:13px;color:var(--mute);line-height:1.35}
+.rt .st{display:block;color:#C08A2B;letter-spacing:2px}
+.hero-art{position:relative;aspect-ratio:4/5;max-height:76vh;justify-self:center;width:100%}
+.blob{position:absolute;inset:0;border-radius:46% 54% 42% 58% / 52% 40% 60% 48%;overflow:hidden;animation:morph 14s ease-in-out infinite;clip-path:inset(100% 0 0 0);transition:clip-path 1.6s var(--ease) .3s}
+.ready .blob{clip-path:inset(0)}
+.blob img{width:100%;height:100%;object-fit:cover;transform:scale(1.15);transition:transform 2.4s var(--ease) .3s}
+.ready .blob img{transform:scale(1.02)}
+@keyframes morph{50%{border-radius:56% 44% 54% 46% / 42% 56% 44% 58%}}
+.hero-art .wheat{position:absolute;right:-6%;bottom:-4%;width:42%;color:var(--clay);opacity:0;transition:opacity 1s 1.4s;transform-origin:bottom center;animation:sway 6s ease-in-out infinite}
+.ready .hero-art .wheat{opacity:1}
+@keyframes sway{50%{transform:rotate(4deg)}}
+.hero-art .tag{position:absolute;left:-6%;top:12%;padding:14px 18px;border-radius:18px;background:rgba(244,237,226,.92);box-shadow:0 20px 40px -24px rgba(44,32,25,.5);font:italic 300 19px/1.3 var(--serif);max-width:230px;opacity:0;transform:translateY(16px);transition:1s var(--ease) 1.3s}
+.ready .hero-art .tag{opacity:1;transform:none}
+
+/* Marquee */
+.mq{overflow:hidden;background:var(--earth);color:var(--wheat)}
+.mq-track{display:flex;width:max-content;will-change:transform}
+.mq-track span{display:flex;align-items:center;gap:26px;padding:20px 13px;font:300 clamp(26px,3.2vw,44px)/1 var(--serif);white-space:nowrap}
+.mq-track span:nth-child(even){font-style:italic;color:#fff}
+.mq-track i{font-style:normal;font-size:.6em}
+
+/* Manifest */
+.mani{text-align:center}
+.mani blockquote{margin:0 auto;max-width:20ch;font:300 clamp(36px,5vw,76px)/1.08 var(--serif);letter-spacing:-.02em}
+.mani blockquote .w{display:inline-block;opacity:.12;transition:opacity .6s,color .6s}
+.mani blockquote .w.on{opacity:1}
+.mani blockquote .w.e.on{color:var(--clay);font-style:italic}
+.mani cite{display:block;margin-top:30px;font:italic 300 20px var(--serif);color:var(--clay2)}
+
+/* Mapa del cos */
+.body-sec{background:var(--wheat)}
+.body-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,5vw,90px);align-items:center}
+.figure{position:relative;max-width:420px;width:100%;justify-self:center}
+.figure svg{width:100%;height:auto;overflow:visible}
+.figure .sil{fill:#EBDDC6;stroke:var(--earth);stroke-width:1.2}
+.zone{fill:var(--clay);fill-opacity:0;cursor:pointer;transition:fill-opacity .4s}
+.zone:hover,.zone:focus{fill-opacity:.25;outline:none}
+.zone.on{fill-opacity:.55}
+.pulse{fill:var(--clay);pointer-events:none;opacity:0}
+.pulse.on{opacity:1;animation:pulse 1.6s infinite}
+@keyframes pulse{0%{r:6;fill-opacity:.9}100%{r:26;fill-opacity:0}}
+.zchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.zchips button{height:42px;padding:0 16px;border-radius:999px;border:1px solid rgba(44,32,25,.25);font-weight:500;font-size:14px;transition:all .35s var(--ease)}
+.zchips button[aria-pressed="true"]{background:var(--earth);color:var(--linen);border-color:var(--earth)}
+.preg{display:flex;align-items:center;gap:12px;margin-top:16px;font-size:14.5px;cursor:pointer;width:fit-content}
+.preg input{appearance:none;width:44px;height:26px;border-radius:999px;background:rgba(44,32,25,.2);position:relative;cursor:pointer;transition:background .3s;margin:0}
+.preg input::after{content:'';position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:transform .35s var(--ease)}
+.preg input:checked{background:var(--clay)}
+.preg input:checked::after{transform:translateX(18px)}
+.rec{margin-top:28px;padding:28px;border-radius:26px;background:var(--linen);box-shadow:0 30px 60px -40px rgba(44,32,25,.5);min-height:220px}
+.rec small{font:600 11px var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--clay2)}
+.rec h3{margin:8px 0 0;font:300 clamp(30px,2.8vw,42px)/1.05 var(--serif)}
+.rec p{margin:10px 0 0;color:var(--mute)}
+.rec .meta{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:18px}
+.rec .pr{font:300 34px/1 var(--serif);color:var(--clay)}
+.rec .dur{font-size:14px;color:var(--mute)}
+.rec-anim{animation:recIn .6s var(--ease)}
+@keyframes recIn{from{opacity:0;transform:translateY(12px)}}
+
+/* Olis */
+.oils{background:var(--earth);color:var(--linen);overflow:hidden;transition:background 1.2s var(--ease)}
+.oils .eyebrow{color:var(--wheat)}
+.oils .lead{color:rgba(244,237,226,.75)}
+.oil-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:50px}
+.oil{position:relative;text-align:left;padding:26px 22px;border-radius:24px;border:1px solid rgba(244,237,226,.2);min-height:250px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;transition:transform .6s var(--ease),border-color .4s,background .6s}
+.oil:hover{transform:translateY(-6px)}
+.oil[aria-pressed="true"]{border-color:var(--wheat);background:rgba(244,237,226,.08)}
+.oil .drop{width:46px;height:60px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:var(--c);box-shadow:0 0 40px var(--c);transform:rotate(180deg)}
+.oil[aria-pressed="true"] .drop{animation:drip 1.6s var(--ease) infinite}
+@keyframes drip{50%{transform:rotate(180deg) translateY(-6px) scale(1.06)}}
+.oil b{display:block;font:300 30px/1.05 var(--serif);margin-top:20px}
+.oil span{font-size:14px;opacity:.75}
+.oil-note{margin-top:30px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.oil-note p{margin:0;opacity:.85}
+
+/* Carta */
+.carta-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:44px}
+.tab{height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--line);font-weight:500;font-size:14px;transition:all .35s var(--ease)}
+.tab[aria-selected="true"]{background:var(--earth);color:var(--linen);border-color:var(--earth)}
+.menu{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,4vw,60px);margin-top:30px;align-items:start}
+.menu-img{position:sticky;top:110px;aspect-ratio:4/5;border-radius:200px 200px 26px 26px;overflow:hidden;background:var(--wheat)}
+.menu-img img{width:100%;height:100%;object-fit:cover;transition:opacity .5s}
+.items{list-style:none;margin:0;padding:0}
+.item{display:grid;grid-template-columns:1fr auto;gap:2px 18px;align-items:baseline;padding:18px 4px;border-bottom:1px solid var(--line);opacity:0;animation:itemIn .6s var(--ease) forwards;animation-delay:calc(var(--k)*50ms)}
+@keyframes itemIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.item b{font:400 clamp(19px,1.6vw,23px)/1.25 var(--serif)}
+.item .pr{font:300 clamp(22px,1.9vw,28px)/1 var(--serif);color:var(--clay);white-space:nowrap}
+.item small{color:var(--mute);font-size:13px}
+.book-note{margin-top:20px;font-size:13.5px;color:var(--mute)}
+
+/* Regal */
+.gift-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(36px,5vw,90px);align-items:center}
+.card3d{perspective:1200px;width:min(100%,460px);aspect-ratio:1.6;justify-self:center;cursor:pointer}
+.card-in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform 1.1s var(--ease)}
+.card3d.flip .card-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;border-radius:22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;padding:26px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 40px 70px -30px rgba(44,32,25,.55)}
+.face.front{background:linear-gradient(135deg,var(--clay),var(--earth));color:var(--linen)}
+.face.front b{font:italic 300 52px/1 var(--serif)}
+.face.front small{letter-spacing:.3em;text-transform:uppercase;font-size:10.5px;font-weight:600}
+.face.back{background:var(--linen);border:1px solid var(--line);transform:rotateY(180deg)}
+.face.back p{margin:0;font:italic 300 22px/1.35 var(--serif)}
+.face.back span{font-size:13px;color:var(--mute)}
+.card-hint{text-align:center;margin-top:16px;font-size:13px;color:var(--mute)}
+
+/* Equip + opinions */
+.team{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:50px}
+.mem{padding:30px;border-radius:24px;background:#fff;border:1px solid var(--line);transition:transform .6s var(--ease)}
+.mem:hover{transform:translateY(-6px)}
+.mem .av{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font:italic 300 28px var(--serif);background:var(--wheat);color:var(--earth)}
+.mem b{display:block;margin-top:18px;font:300 30px var(--serif)}
+.mem span{color:var(--mute);font-size:14.5px}
+.rev{background:var(--wheat)}
+.rev-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.scores{display:flex;gap:30px;flex-wrap:wrap}
+.rev-track{display:flex;gap:14px;margin-top:46px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:6px;cursor:grab}
+.rev-track::-webkit-scrollbar{display:none}
+.rcard{flex:0 0 min(420px,82%);scroll-snap-align:start;margin:0;padding:30px;border-radius:24px;background:var(--linen);display:flex;flex-direction:column;justify-content:space-between;min-height:260px}
+.rcard blockquote{margin:0;font:300 clamp(21px,1.8vw,26px)/1.3 var(--serif)}
+.rcard cite{display:block;margin-top:20px;font-style:normal;font-size:13.5px;color:var(--mute)}
+.rcard .src{display:inline-block;margin-right:8px;padding:3px 9px;border-radius:999px;background:var(--wheat);font-size:11.5px;font-weight:600}
+.rev-ctrl{display:flex;gap:10px;margin-top:20px}
+.rev-ctrl button{width:50px;height:50px;border-radius:50%;border:1px solid var(--earth);display:grid;place-items:center;transition:background .3s,color .3s}
+.rev-ctrl button:hover{background:var(--earth);color:var(--linen)}
+.rev-ctrl svg{width:18px;height:18px}
+
+/* Visita */
+.vis-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(36px,5vw,90px);align-items:start}
+.status{display:inline-flex;align-items:center;gap:9px;margin-top:20px;padding:10px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:14px;font-weight:500}
+.status i{width:8px;height:8px;border-radius:50%;background:#bbb}
+.status.open i{background:#5BA77B;box-shadow:0 0 0 4px rgba(91,167,123,.2)}
+.htable{width:100%;border-collapse:collapse;margin-top:26px}
+.htable td{padding:14px 2px;border-bottom:1px solid var(--line)}
+.htable td:last-child{text-align:right;color:var(--mute)}
+.htable tr.today td{font-weight:600}
+.htable tr.today td:last-child{color:var(--ink)}
+.htable tr.today td:first-child::after{content:attr(data-today);margin-left:10px;font:italic 300 17px var(--serif);color:var(--clay);font-weight:400}
+.ways{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}
+.ways a{padding:20px 22px;border-radius:20px;background:#fff;border:1px solid var(--line);transition:border-color .3s,transform .5s var(--ease)}
+.ways a:hover{border-color:var(--clay);transform:translateY(-3px)}
+.ways b{display:block;font:300 24px var(--serif)}
+.ways small{color:var(--mute);font-size:13px}
+.map{position:relative;border-radius:200px 200px 28px 28px;overflow:hidden;aspect-ratio:4/5;background:var(--wheat)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) sepia(.35) contrast(.95)}
+.map-card{position:absolute;left:16px;right:16px;bottom:16px;padding:18px 20px;border-radius:20px;background:rgba(244,237,226,.94);display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.map-card b{display:block;font:300 22px var(--serif)}
+.map-card span{font-size:13.5px;color:var(--mute)}
+
+.foot{background:var(--earth);color:var(--linen);padding:90px 0 36px;overflow:hidden;text-align:center}
+.foot-big{font:italic 300 clamp(90px,20vw,300px)/.85 var(--serif);color:var(--wheat)}
+.foot-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:50px;font-size:13.5px;opacity:.75}
+.fab{position:fixed;right:18px;bottom:18px;z-index:90;height:56px;padding:0 22px;border-radius:999px;background:var(--clay);color:#fff;display:flex;align-items:center;gap:10px;font:600 14px var(--sans);box-shadow:0 18px 40px -16px rgba(154,82,54,.7);transform:translateY(140%);transition:transform .7s var(--ease)}
+.fab.show{transform:none}
+.fab svg{width:18px;height:18px}
+
+@media (max-width:1080px){.nav-links{display:none}.burger{display:grid}.oil-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){
+  .hero-grid,.body-grid,.menu,.gift-grid,.vis-grid{grid-template-columns:minmax(0,1fr)}
+  .hero-art{max-height:60vh;max-width:460px}
+  .menu-img{position:relative;top:0;aspect-ratio:16/10;border-radius:26px}
+  .team{grid-template-columns:minmax(0,1fr)}
+  .figure{max-width:300px}
+}
+@media (max-width:640px){
+  .nav-cta{display:none}
+  .ways{grid-template-columns:1fr}
+  .fab span{display:none}
+  .fab{padding:0;width:56px;justify-content:center}
+  .oil{min-height:200px;padding:20px 16px}
+  .oil b{font-size:24px}
+  .hero-art .tag{left:0;top:auto;bottom:6%;font-size:16px}
+}
+.rm *,.rm *::before,.rm *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+</style>
+</head>
+<body>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <svg viewBox="0 0 360 160">
+    <path d="M40 150 C 60 90, 70 60, 72 20 M72 20 C 60 34, 58 46, 66 56 M72 34 C 84 44, 86 54, 76 64 M70 60 C 58 70, 58 80, 66 88 M72 74 C 84 82, 86 92, 76 100"/>
+    <text x="110" y="110">Laila</text>
+  </svg>
+</div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#inici" aria-label="Laila"><b>Laila</b><small data-i="logo.sub">Estètica i quiromassatge</small></a>
+    <nav class="nav-links" aria-label="Menu">
+      <a href="#cos" data-i="nav.cos">El teu cos</a><a href="#olis" data-i="nav.olis">Olis</a><a href="#carta" data-i="nav.carta">Tractaments</a><a href="#regal" data-i="nav.regal">Targeta regal</a><a href="#opinions" data-i="nav.op">Opinions</a><a href="#visita" data-i="nav.vis">Visita'ns</a>
+    </nav>
+    <div class="nav-r">
+      <div class="lang" role="group" aria-label="Idioma"><button type="button" data-l="ca" aria-pressed="true">CA</button><button type="button" data-l="es" aria-pressed="false">ES</button></div>
+      <a class="btn btn-clay nav-cta" data-book href="#" target="_blank" rel="noopener" data-i="cta.book">Reserva</a>
+      <button class="burger" id="burger" type="button" data-ia="nav.open" aria-label="Obre el menú" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true">
+  <button class="mclose" id="mclose" type="button" data-i="nav.close">Tanca</button>
+  <ul>
+    <li><a href="#cos" style="--k:0" data-i="nav.cos">El teu cos</a></li>
+    <li><a href="#olis" style="--k:1" data-i="nav.olis">Olis</a></li>
+    <li><a href="#carta" style="--k:2" data-i="nav.carta">Tractaments</a></li>
+    <li><a href="#regal" style="--k:3" data-i="nav.regal">Targeta regal</a></li>
+    <li><a href="#opinions" style="--k:4" data-i="nav.op">Opinions</a></li>
+    <li><a href="#visita" style="--k:5" data-i="nav.vis">Visita'ns</a></li>
+  </ul>
+  <p>Travessia de la Creu, 7 · Girona<br>669 44 51 09</p>
+</div>
+
+<main>
+<section class="hero" id="inici">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow" data-i="hero.kick">Bellesa i benestar a Girona</p>
+      <h1 id="heroH"></h1>
+      <p class="sub" data-i="hero.sub">Tractaments avançats i personalitzats, quiromassatge i estètica al centre de Girona. Resultats visibles des de la primera sessió.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-clay" data-book href="#" target="_blank" rel="noopener"><span data-i="cta.book2">Reserva la teva experiència</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-line" href="#cos" data-i="hero.cta2">On notes la tensió?</a>
+      </div>
+      <div class="hero-rates">
+        <a class="rt" data-rev href="#" target="_blank" rel="noopener"><b>4,9</b><span><span class="st">★★★★★</span><span data-i="r.google">53 ressenyes a Google</span></span></a>
+        <span class="rt"><b>4,8</b><span><span class="st">★★★★★</span><span data-i="r.tw">95 opinions a Treatwell</span></span></span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="blob"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=74" alt="" data-ialt="hero.alt"></div>
+      <svg class="wheat" viewBox="0 0 80 160" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M40 158 C 42 110, 40 70, 40 12"/><path d="M40 20 C 30 26, 28 36, 36 44 M40 20 C 50 26, 52 36, 44 44 M40 42 C 30 48, 28 58, 36 66 M40 42 C 50 48, 52 58, 44 66 M40 64 C 30 70, 28 80, 36 88 M40 64 C 50 70, 52 80, 44 88 M40 86 C 31 92, 30 100, 37 108 M40 86 C 49 92, 50 100, 43 108"/></svg>
+      <div class="tag" data-i="hero.tag">“Cada massatge s’adapta a tu i al que el teu cos necessita.”</div>
+    </div>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mq-track" id="mq"></div></div>
+
+<section class="section mani">
+  <div class="wrap">
+    <p class="eyebrow" style="justify-content:center" data-i="mani.kick">La meva manera de treballar</p>
+    <blockquote id="maniQ"></blockquote>
+    <cite>— Laila Martin Vinyals</cite>
+  </div>
+</section>
+
+<section class="section body-sec" id="cos">
+  <div class="wrap body-grid">
+    <div class="figure" data-reveal>
+      <svg viewBox="0 0 220 440" id="bodySvg" role="group" data-ia="cos.svg" aria-label="Figura del cos">
+        <path class="sil" d="M110 10c18 0 30 14 30 32s-12 34-30 34-30-16-30-34 12-32 30-32zM96 78h28l6 14c22 4 40 10 46 26l14 74c2 10-8 14-12 6l-16-62-4 70 6 92 4 110c0 10-14 12-16 2l-18-150-4-30-4 30-18 150c-2 10-16 8-16-2l4-110 6-92-4-70-16 62c-4 8-14 4-12-6l14-74c6-16 24-22 46-26z"/>
+        <ellipse class="zone" data-z="cap" tabindex="0" cx="110" cy="42" rx="32" ry="36"/>
+        <rect class="zone" data-z="coll" tabindex="0" x="88" y="76" width="44" height="26" rx="10"/>
+        <path class="zone" data-z="espatlles" tabindex="0" d="M60 104 C 76 94, 96 96, 108 104 L112 104 C 124 96, 144 94, 160 104 L162 132 L58 132 Z"/>
+        <rect class="zone" data-z="esquena" tabindex="0" x="70" y="132" width="80" height="58" rx="12"/>
+        <rect class="zone" data-z="lumbar" tabindex="0" x="74" y="190" width="72" height="46" rx="12"/>
+        <path class="zone" data-z="cames" tabindex="0" d="M78 250 L142 250 L136 430 L118 430 L110 290 L102 430 L84 430 Z"/>
+        <circle class="pulse" id="pulse" cx="110" cy="42" r="8"/>
+      </svg>
+    </div>
+    <div>
+      <p class="eyebrow" data-reveal data-i="cos.kick">El teu cos també parla</p>
+      <h2 class="h2" data-reveal data-ih="cos.h">On notes <em>la tensió?</em></h2>
+      <p class="lead" data-reveal data-i="cos.lead">Toca la zona del cos on més ho notes i et proposem el massatge per començar. Cada sessió s'adapta al que el teu cos necessita aquell dia.</p>
+      <div class="zchips" id="zchips" data-reveal></div>
+      <label class="preg" data-reveal><input type="checkbox" id="preg"><span data-i="cos.preg">Estic embarassada</span></label>
+      <div class="rec" id="rec" data-reveal aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section oils" id="olis">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal data-i="oil.kick">Olis essencials</p>
+    <h2 class="h2" data-reveal data-ih="oil.h">Hi ha olors <em>que abracen</em></h2>
+    <p class="lead" data-reveal data-i="oil.lead">Treballem amb olis essencials naturals i purs: cada aroma acompanya el moment, cuida la pell i transforma el tractament en una experiència. Tria el teu.</p>
+    <div class="oil-grid" id="oils"></div>
+    <div class="oil-note" data-reveal><p id="oilTxt"></p><a class="btn btn-clay" data-book href="#" target="_blank" rel="noopener" data-i="oil.btn">Massatge amb olis essencials · 58 €</a></div>
+  </div>
+</section>
+
+<section class="section" id="carta">
+  <div class="wrap">
+    <div class="carta-head">
+      <div><p class="eyebrow" data-reveal data-i="c.kick">Tractaments i preus</p><h2 class="h2" data-reveal data-ih="c.h">Cura, criteri <em>i respecte</em></h2></div>
+      <p class="lead" data-reveal style="max-width:40ch" data-i="c.lead">La carta completa amb els preus que publiquem a Treatwell. Reserva en línia o truca'ns.</p>
+    </div>
+    <div class="tabs" id="tabs" role="tablist" data-reveal></div>
+    <div class="menu" data-reveal>
+      <div class="menu-img"><img id="mImg" src="" alt=""></div>
+      <div><ul class="items" id="items"></ul><p class="book-note" data-i="c.note">Preus de la nostra carta a Treatwell. Alguns tractaments són "des de": t'ho confirmem a la cita.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="regal" style="padding-top:0">
+  <div class="wrap gift-grid">
+    <div>
+      <p class="eyebrow" data-reveal data-i="g.kick">Targetes regal</p>
+      <h2 class="h2" data-reveal data-ih="g.h">Els millors regals <em>no s'emboliquen</em></h2>
+      <p class="lead" data-reveal data-i="g.lead">Les nostres targetes regal són una pausa, un mim, un moment per reconnectar. Regala temps, cura i benestar. Disponibles al centre.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px" data-reveal><a class="btn btn-clay" href="tel:+34669445109" data-i="g.btn">Truca i demana la teva</a></div>
+    </div>
+    <div data-reveal>
+      <div class="card3d" id="card" tabindex="0" role="button" data-ia="g.flip" aria-label="Gira la targeta">
+        <div class="card-in">
+          <div class="face front"><small data-i="g.f1">Targeta regal</small><b>Laila</b><small>Estètica i quiromassatge · Girona</small></div>
+          <div class="face back"><p data-i="g.b1">“Penso en tu.” Una hora per a tu: per desconnectar, respirar i deixar-te cuidar.</p><span>Travessia de la Creu, 7 · 669 44 51 09</span></div>
+        </div>
+      </div>
+      <p class="card-hint" data-i="g.hint">Toca la targeta per girar-la</p>
+    </div>
+  </div>
+</section>
+
+<section class="section rev" id="opinions">
+  <div class="wrap">
+    <div class="rev-top">
+      <div><p class="eyebrow" data-reveal data-i="op.kick">Opinions</p><h2 class="h2" data-reveal data-ih="op.h">Tot <em>de 10</em></h2></div>
+      <div class="scores" data-reveal>
+        <a class="rt" data-rev href="#" target="_blank" rel="noopener"><b>4,9</b><span><span class="st">★★★★★</span><span data-i="r.google">53 ressenyes a Google</span></span></a>
+        <a class="rt" data-book href="#" target="_blank" rel="noopener"><b>4,8</b><span><span class="st">★★★★★</span><span data-i="r.tw">95 opinions a Treatwell</span></span></a>
+      </div>
+    </div>
+    <div class="rev-track" id="revs" data-reveal></div>
+    <div class="rev-ctrl"><button type="button" id="rPrev" data-ia="op.prev" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6"/></svg></button><button type="button" id="rNext" data-ia="op.next" aria-label="Següent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 6l6 6-6 6"/></svg></button></div>
+    <div class="team">
+      <div class="mem" data-reveal><span class="av">L</span><b>Laila</b><span data-i="t.l">Fundadora. Facials, massatge, cos, ungles i depilació.</span></div>
+      <div class="mem" data-reveal style="--d:.08s"><span class="av">I</span><b>Ingrid</b><span data-i="t.i">Massatges relaxants i descontracturants.</span></div>
+      <div class="mem" data-reveal style="--d:.16s"><span class="av">J</span><b>Jose</b><span data-i="t.j">Professional de l'equip, s'hi va incorporar el 2025.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="visita">
+  <div class="wrap vis-grid">
+    <div>
+      <p class="eyebrow" data-reveal data-i="v.kick">Visita'ns</p>
+      <h2 class="h2" data-reveal data-ih="v.h">Al centre <em>de Girona</em></h2>
+      <p class="lead" data-reveal data-i="v.addr">Travessia de la Creu, 7 · 17002 Girona. A 10 minuts a peu de l'estació de tren.</p>
+      <span class="status" id="status" data-reveal><i></i><span id="stTxt"></span></span>
+      <table class="htable" data-reveal><tbody id="htable"></tbody></table>
+      <div class="ways" data-reveal>
+        <a data-book href="#" target="_blank" rel="noopener"><b data-i="v.b1">Reserva en línia</b><small>Treatwell ↗</small></a>
+        <a href="tel:+34669445109"><b>669 44 51 09</b><small data-i="v.b2">Truca'ns</small></a>
+      </div>
+      <a class="btn btn-line" style="margin-top:20px" href="https://www.instagram.com/lailaesteticaquiromassatge/" target="_blank" rel="noopener">@lailaesteticaquiromassatge ↗</a>
+    </div>
+    <div class="map" data-reveal style="--d:.1s">
+      <iframe title="Mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Estetica+i+Quiromassatge+Laila,+Travessia+de+la+Creu+7,+17002+Girona&z=16&output=embed"></iframe>
+      <div class="map-card"><div><b>Laila</b><span>Travessia de la Creu, 7</span></div><a class="btn btn-clay" style="height:46px;padding:0 18px;font-size:13px" href="https://www.google.com/maps/dir/?api=1&destination=Estetica+i+Quiromassatge+Laila,+Travessia+de+la+Creu+7,+Girona" target="_blank" rel="noopener" data-i="v.go">Com arribar-hi</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot-big" aria-hidden="true">Laila</div>
+  <div class="wrap foot-row">
+    <span>© <span id="yr"></span> Laila · Estètica i Quiromassatge</span>
+    <span><a href="tel:+34669445109">669 44 51 09</a> · <a href="https://www.instagram.com/lailaesteticaquiromassatge/" target="_blank" rel="noopener">Instagram</a> · <a data-rev href="#" target="_blank" rel="noopener">Google</a></span>
+  </div>
+</footer>
+
+<a class="fab" id="fab" data-book href="#" target="_blank" rel="noopener" data-ia="cta.book" aria-label="Reserva"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span data-i="cta.book">Reserva</span></a>
+
+<script>
+const $ = (s, c = document) => c.querySelector(s), $$ = (s, c = document) => [...c.querySelectorAll(s)];
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+if (RM) document.documentElement.classList.add('rm');
+const BOOK = 'https://www.treatwell.es/establecimiento/laila-estetica-i-quiromassage/';
+const REV = 'https://www.google.com/maps/search/?api=1&query=Estetica+i+Quiromassatge+Laila+Travessia+de+la+Creu+7+Girona';
+$$('[data-book]').forEach(a => a.href = BOOK);
+$$('[data-rev]').forEach(a => a.href = REV);
+$('#yr').textContent = new Date().getFullYear();
+
+/* ---------- Textos ---------- */
+const T = {
+ca: {
+  'title': 'Laila · Estètica i Quiromassatge Girona', 'logo.sub': 'Estètica i quiromassatge', 'nav.cos': 'El teu cos', 'nav.olis': 'Olis', 'nav.carta': 'Tractaments', 'nav.regal': 'Targeta regal', 'nav.op': 'Opinions', 'nav.vis': "Visita'ns", 'nav.close': 'Tanca', 'nav.open': 'Obre el menú', 'cta.book': 'Reserva', 'cta.book2': 'Reserva la teva experiència',
+  'hero.kick': 'Bellesa i benestar a Girona', 'hero.h': ['Bellesa', 'i <em>benestar</em>', 'a Girona'], 'hero.sub': 'Tractaments avançats i personalitzats, quiromassatge i estètica al centre de Girona. Resultats visibles des de la primera sessió.', 'hero.cta2': 'On notes la tensió?', 'hero.alt': 'Massatge amb oli a l’esquena', 'hero.tag': '“Cada massatge s’adapta a tu i al que el teu cos necessita.”', 'r.google': '53 ressenyes a Google', 'r.tw': '95 opinions a Treatwell',
+  'mq': ['Quiromassatge', 'Maderoteràpia', 'Olis essencials', 'Facials', 'Dermapen', 'Radiofreqüència', 'Manicura', 'Depilació làser', 'Cames lleugeres'],
+  'mani.kick': 'La meva manera de treballar', 'mani': 'No competeixo en rapidesa ni en preus. Competeixo en *cura,* *criteri* i *respecte.*',
+  'cos.kick': 'El teu cos també parla', 'cos.h': 'On notes <em>la tensió?</em>', 'cos.lead': "Toca la zona del cos on més ho notes i et proposem el massatge per començar. Cada sessió s'adapta al que el teu cos necessita aquell dia.", 'cos.preg': 'Estic embarassada', 'cos.svg': 'Figura del cos: toca una zona', 'cos.rec': 'Et proposem', 'cos.pick': 'Tria una zona del cos', 'cos.pickp': 'Toca la figura o una de les zones de dalt.',
+  'z.cap': 'Cap i cara', 'z.coll': 'Coll i cervicals', 'z.espatlles': 'Espatlles', 'z.esquena': 'Esquena', 'z.lumbar': 'Lumbars', 'z.cames': 'Cames',
+  'oil.kick': 'Olis essencials', 'oil.h': 'Hi ha olors <em>que abracen</em>', 'oil.lead': 'Treballem amb olis essencials naturals i purs: cada aroma acompanya el moment, cuida la pell i transforma el tractament en una experiència. Tria el teu.', 'oil.btn': 'Massatge amb olis essencials · 58 €',
+  'c.kick': 'Tractaments i preus', 'c.h': 'Cura, criteri <em>i respecte</em>', 'c.lead': "La carta completa amb els preus que publiquem a Treatwell. Reserva en línia o truca'ns.", 'c.note': "Preus de la nostra carta a Treatwell. Alguns tractaments són \"des de\": t'ho confirmem a la cita.", 'from': 'des de ',
+  'g.kick': 'Targetes regal', 'g.h': "Els millors regals <em>no s'emboliquen</em>", 'g.lead': 'Les nostres targetes regal són una pausa, un mim, un moment per reconnectar. Regala temps, cura i benestar. Disponibles al centre.', 'g.btn': 'Truca i demana la teva', 'g.flip': 'Gira la targeta', 'g.f1': 'Targeta regal', 'g.b1': '“Penso en tu.” Una hora per a tu: per desconnectar, respirar i deixar-te cuidar.', 'g.hint': 'Toca la targeta per girar-la',
+  'op.kick': 'Opinions', 'op.h': 'Tot <em>de 10</em>', 'op.prev': 'Anterior', 'op.next': 'Següent',
+  't.l': 'Fundadora. Facials, massatge, cos, ungles i depilació.', 't.i': 'Massatges relaxants i descontracturants.', 't.j': "Professional de l'equip, s'hi va incorporar el 2025.",
+  'v.kick': "Visita'ns", 'v.h': 'Al centre <em>de Girona</em>', 'v.addr': "Travessia de la Creu, 7 · 17002 Girona. A 10 minuts a peu de l'estació de tren.", 'v.b1': 'Reserva en línia', 'v.b2': "Truca'ns", 'v.go': 'Com arribar-hi', 'today': 'avui',
+  'days': ['Diumenge', 'Dilluns', 'Dimarts', 'Dimecres', 'Dijous', 'Divendres', 'Dissabte'], 'closed': 'Tancat', 'open': 'Obert · fins a les {h}', 'opens': 'Tancat · obre a les {h}', 'opensT': 'Tancat · obre demà a les {h}', 'opensD': 'Tancat · obre {d} a les {h}',
+},
+es: {
+  'title': 'Laila · Estética y Quiromasaje Girona', 'logo.sub': 'Estética y quiromasaje', 'nav.cos': 'Tu cuerpo', 'nav.olis': 'Aceites', 'nav.carta': 'Tratamientos', 'nav.regal': 'Tarjeta regalo', 'nav.op': 'Opiniones', 'nav.vis': 'Visítanos', 'nav.close': 'Cerrar', 'nav.open': 'Abrir el menú', 'cta.book': 'Reserva', 'cta.book2': 'Reserva tu experiencia',
+  'hero.kick': 'Belleza y bienestar en Girona', 'hero.h': ['Belleza', 'y <em>bienestar</em>', 'en Girona'], 'hero.sub': 'Tratamientos avanzados y personalizados, quiromasaje y estética en el centro de Girona. Resultados visibles desde la primera sesión.', 'hero.cta2': '¿Dónde notas la tensión?', 'hero.alt': 'Masaje con aceite en la espalda', 'hero.tag': '“Cada masaje se adapta a ti y a lo que tu cuerpo necesita.”', 'r.google': '53 reseñas en Google', 'r.tw': '95 opiniones en Treatwell',
+  'mq': ['Quiromasaje', 'Maderoterapia', 'Aceites esenciales', 'Faciales', 'Dermapen', 'Radiofrecuencia', 'Manicura', 'Depilación láser', 'Piernas ligeras'],
+  'mani.kick': 'Mi manera de trabajar', 'mani': 'No compito en rapidez ni en precios. Compito en *cuidado,* *criterio* y *respeto.*',
+  'cos.kick': 'Tu cuerpo también habla', 'cos.h': '¿Dónde notas <em>la tensión?</em>', 'cos.lead': 'Toca la zona del cuerpo donde más lo notas y te proponemos el masaje para empezar. Cada sesión se adapta a lo que tu cuerpo necesita ese día.', 'cos.preg': 'Estoy embarazada', 'cos.svg': 'Figura del cuerpo: toca una zona', 'cos.rec': 'Te proponemos', 'cos.pick': 'Elige una zona del cuerpo', 'cos.pickp': 'Toca la figura o una de las zonas de arriba.',
+  'z.cap': 'Cabeza y cara', 'z.coll': 'Cuello y cervicales', 'z.espatlles': 'Hombros', 'z.esquena': 'Espalda', 'z.lumbar': 'Lumbares', 'z.cames': 'Piernas',
+  'oil.kick': 'Aceites esenciales', 'oil.h': 'Hay olores <em>que abrazan</em>', 'oil.lead': 'Trabajamos con aceites esenciales naturales y puros: cada aroma acompaña el momento, cuida la piel y transforma el tratamiento en una experiencia. Elige el tuyo.', 'oil.btn': 'Masaje con aceites esenciales · 58 €',
+  'c.kick': 'Tratamientos y precios', 'c.h': 'Cuidado, criterio <em>y respeto</em>', 'c.lead': 'La carta completa con los precios que publicamos en Treatwell. Reserva online o llámanos.', 'c.note': 'Precios de nuestra carta en Treatwell. Algunos tratamientos son "desde": te lo confirmamos en la cita.', 'from': 'desde ',
+  'g.kick': 'Tarjetas regalo', 'g.h': 'Los mejores regalos <em>no se envuelven</em>', 'g.lead': 'Nuestras tarjetas regalo son una pausa, un mimo, un momento para reconectar. Regala tiempo, cuidado y bienestar. Disponibles en el centro.', 'g.btn': 'Llama y pide la tuya', 'g.flip': 'Gira la tarjeta', 'g.f1': 'Tarjeta regalo', 'g.b1': '“Pienso en ti.” Una hora para ti: para desconectar, respirar y dejarte cuidar.', 'g.hint': 'Toca la tarjeta para girarla',
+  'op.kick': 'Opiniones', 'op.h': 'Todo <em>de 10</em>', 'op.prev': 'Anterior', 'op.next': 'Siguiente',
+  't.l': 'Fundadora. Faciales, masaje, cuerpo, uñas y depilación.', 't.i': 'Masajes relajantes y descontracturantes.', 't.j': 'Profesional del equipo, se incorporó en 2025.',
+  'v.kick': 'Visítanos', 'v.h': 'En el centro <em>de Girona</em>', 'v.addr': 'Travessia de la Creu, 7 · 17002 Girona. A 10 minutos a pie de la estación de tren.', 'v.b1': 'Reserva online', 'v.b2': 'Llámanos', 'v.go': 'Cómo llegar', 'today': 'hoy',
+  'days': ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'], 'closed': 'Cerrado', 'open': 'Abierto · hasta las {h}', 'opens': 'Cerrado · abre a las {h}', 'opensT': 'Cerrado · abre mañana a las {h}', 'opensD': 'Cerrado · abre el {d} a las {h}',
+}};
+let L = 'ca';
+try { const s = localStorage.getItem('laila-lang'); if (s === 'ca' || s === 'es') L = s; } catch (e) {}
+const t = (k, x) => { let v = T[L][k] ?? T.ca[k] ?? k; if (x && typeof v === 'string') v = v.replace(/\{(\w+)\}/g, (m, kk) => x[kk] ?? m); return v; };
+const tt = o => (o && typeof o === 'object' && !Array.isArray(o)) ? (o[L] ?? o.ca) : o;
+const U = (id, w = 1000) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=72`;
+const euro = v => (Number.isInteger(v) ? v : v.toFixed(2).replace('.', ',')) + ' €';
+
+/* ---------- Mapa del cos ---------- */
+const ZONES = ['cap', 'coll', 'espatlles', 'esquena', 'lumbar', 'cames'];
+const ZPOS = {cap: [110, 42], coll: [110, 89], espatlles: [110, 116], esquena: [110, 160], lumbar: [110, 212], cames: [110, 320]};
+const REC = {
+  cap: {n: {ca: 'Massatge cranifacial', es: 'Masaje craneofacial'}, d: {ca: 'Allibera la tensió del cap i la cara. Ideal si notes el rostre carregat o les faccions tenses; també fem maderoteràpia facial.', es: 'Libera la tensión de la cabeza y la cara. Ideal si notas el rostro cargado o las facciones tensas; también hacemos maderoterapia facial.'}, p: 60, m: 30},
+  coll: {n: {ca: 'Massatge descontracturant cervical', es: 'Masaje descontracturante cervical'}, d: {ca: 'Treball específic de la musculatura cervical i de les fàscies per alliberar tensions acumulades i millorar la mobilitat.', es: 'Trabajo específico de la musculatura cervical y de las fascias para liberar tensiones acumuladas y mejorar la movilidad.'}, p: 57, m: 60},
+  espatlles: {n: {ca: 'Massatge descontracturant', es: 'Masaje descontracturante'}, d: {ca: 'Les tensions cervicals sovint arriben a les espatlles. Un treball profund per descarregar i recuperar mobilitat.', es: 'Las tensiones cervicales a menudo llegan a los hombros. Un trabajo profundo para descargar y recuperar movilidad.'}, p: 57, m: 60},
+  esquena: {n: {ca: 'Massatge corporal relaxant', es: 'Masaje corporal relajante'}, d: {ca: 'Per baixar revolucions i alliberar l’esquena. Si vols, amb olis essencials (58 €).', es: 'Para bajar revoluciones y liberar la espalda. Si quieres, con aceites esenciales (58 €).'}, p: 55, m: 60},
+  lumbar: {n: {ca: 'Massatge descontracturant', es: 'Masaje descontracturante'}, d: {ca: 'Sobrecàrregues i cansament a la zona lumbar: un massatge més profund adaptat al que necessites.', es: 'Sobrecargas y cansancio en la zona lumbar: un masaje más profundo adaptado a lo que necesitas.'}, p: 57, m: 60},
+  cames: {n: {ca: 'Massatge drenant / circulatori', es: 'Masaje drenante / circulatorio'}, d: {ca: 'Cames cansades, pesades o inflades? Estimulem la circulació i recuperes la sensació de lleugeresa. Pots combinar-ho amb presoteràpia (des de 25 €).', es: '¿Piernas cansadas, pesadas o hinchadas? Estimulamos la circulación y recuperas la sensación de ligereza. Puedes combinarlo con presoterapia (desde 25 €).'}, p: 55, m: 60},
+  preg: {n: {ca: 'Massatge drenant per a embarassades', es: 'Masaje drenante para embarazadas'}, d: {ca: 'Un massatge suau i adaptat a l’embaràs per alleugerir cames i esquena, amb tota la cura.', es: 'Un masaje suave y adaptado al embarazo para aliviar piernas y espalda, con todo el cuidado.'}, p: 55, m: 60},
+};
+let zone = null;
+function renderBody(anim) {
+  $('#zchips').innerHTML = ZONES.map(z => `<button type="button" data-z="${z}" aria-pressed="${z === zone}">${t('z.' + z)}</button>`).join('');
+  $$('#bodySvg .zone').forEach(el => { el.classList.toggle('on', el.dataset.z === zone); el.setAttribute('aria-label', t('z.' + el.dataset.z)); el.setAttribute('role', 'button'); });
+  const p = $('#pulse');
+  if (zone) { p.setAttribute('cx', ZPOS[zone][0]); p.setAttribute('cy', ZPOS[zone][1]); p.classList.add('on'); } else p.classList.remove('on');
+  const key = $('#preg').checked ? 'preg' : zone;
+  const r = REC[key];
+  $('#rec').className = 'rec' + (anim ? ' rec-anim' : '') + ($('#rec').classList.contains('in') ? ' in' : '');
+  $('#rec').innerHTML = r ? `<small>${t('cos.rec')}${zone && key !== 'preg' ? ' · ' + t('z.' + zone) : ''}</small><h3>${tt(r.n)}</h3><p>${tt(r.d)}</p><div class="meta"><span class="pr">${euro(r.p)}</span><span class="dur">${r.m} min</span><a class="btn btn-clay" href="${BOOK}" target="_blank" rel="noopener">${t('cta.book')}</a></div>` : `<small>${t('cos.rec')}</small><h3>${t('cos.pick')}</h3><p>${t('cos.pickp')}</p>`;
+}
+
+/* ---------- Olis ---------- */
+const OILS = [
+  {n: {ca: 'Lavanda', es: 'Lavanda'}, d: {ca: 'Calma i descans', es: 'Calma y descanso'}, c: '#9C8BC9', bg: '#3E3550'},
+  {n: {ca: 'Eucaliptus', es: 'Eucalipto'}, d: {ca: 'Respira i allibera', es: 'Respira y libera'}, c: '#7FB5A0', bg: '#2E433B'},
+  {n: {ca: 'Taronja dolça', es: 'Naranja dulce'}, d: {ca: 'Alegria i energia', es: 'Alegría y energía'}, c: '#E99A4B', bg: '#4F3220'},
+  {n: {ca: 'Rosa', es: 'Rosa'}, d: {ca: 'Mim per a la pell', es: 'Mimo para la piel'}, c: '#D9879A', bg: '#4C2A31'},
+];
+let oil = 0;
+function renderOils() {
+  $('#oils').innerHTML = OILS.map((o, i) => `<button type="button" class="oil" data-oil="${i}" aria-pressed="${i === oil}" style="--c:${o.c}"><span class="drop"></span><span><b>${tt(o.n)}</b><span>${tt(o.d)}</span></span></button>`).join('');
+  $('#olis').style.background = OILS[oil].bg;
+  $('#oilTxt').textContent = L === 'ca' ? `Avui triaries ${tt(OILS[oil].n).toLowerCase()}: ${tt(OILS[oil].d).toLowerCase()}.` : `Hoy elegirías ${tt(OILS[oil].n).toLowerCase()}: ${tt(OILS[oil].d).toLowerCase()}.`;
+}
+
+/* ---------- Carta (Treatwell) ---------- */
+const CARTA = [
+  {n: {ca: 'Massatges', es: 'Masajes'}, img: '1600334089648-b0d9d3028eb2', it: [
+    [{ca: 'Massatge corporal relaxant', es: 'Masaje corporal relajante'}, 55, 60], [{ca: 'Massatge amb olis essencials', es: 'Masaje con aceites esenciales'}, 58, 60], [{ca: 'Massatge descontracturant', es: 'Masaje descontracturante'}, 57, 60],
+    [{ca: 'Massatge drenant / circulatori', es: 'Masaje drenante / circulatorio'}, 55, 60], [{ca: 'Massatge drenant per a embarassades', es: 'Masaje drenante para embarazadas'}, 55, 60], [{ca: 'Massatge relaxant + peeling', es: 'Masaje relajante + peeling'}, 56, 60], [{ca: 'Massatge cranifacial', es: 'Masaje craneofacial'}, 60, 30]]},
+  {n: {ca: 'Facials', es: 'Faciales'}, img: '1570172619644-dfd03ed5d881', it: [
+    [{ca: 'Neteja facial personalitzada', es: 'Limpieza facial personalizada'}, 60, 60], [{ca: 'Tractament pells greixoses', es: 'Tratamiento pieles grasas'}, 60, 60], [{ca: 'Tractament pells sensibles', es: 'Tratamiento pieles sensibles'}, 60, 60],
+    [{ca: 'Lifting facial amb àcid hialurònic', es: 'Lifting facial con ácido hialurónico'}, 67, 60], [{ca: 'Dermapen llavis', es: 'Dermapen labios'}, 50, 45], [{ca: 'Radiofreqüència facial Binary System', es: 'Radiofrecuencia facial Binary System'}, 75, 60, 1], [{ca: 'Mesoteràpia Skin Dual', es: 'Mesoterapia Skin Dual'}, 95, 60, 1]]},
+  {n: {ca: 'Cos', es: 'Cuerpo'}, img: '1643684391140-c5056cfd3436', it: [
+    [{ca: 'Radiofreqüència corporal Binary System', es: 'Radiofrecuencia corporal Binary System'}, 75, 60, 1], [{ca: 'Bo 6 sessions radiofreqüència + maderoteràpia', es: 'Bono 6 sesiones radiofrecuencia + maderoterapia'}, 520, 60], [{ca: 'Maderoteràpia', es: 'Maderoterapia'}, 55, 60, 1], [{ca: 'Presoteràpia', es: 'Presoterapia'}, 25, 35, 1]]},
+  {n: {ca: 'Mans i peus', es: 'Manos y pies'}, img: '1632345031435-8727f6897d53', it: [
+    [{ca: 'Manicura bàsica esmaltat normal', es: 'Manicura básica esmaltado normal'}, 20, 45], [{ca: 'Manicura semipermanent', es: 'Manicura semipermanente'}, 25, 50], [{ca: 'Manicura semipermanent amb reforç', es: 'Manicura semipermanente con refuerzo'}, 28, 60], [{ca: 'Retirar semipermanent', es: 'Retirar semipermanente'}, 10, 20],
+    [{ca: 'Esmaltat semipermanent', es: 'Esmaltado semipermanente'}, 25, 30], [{ca: 'Pedicura completa esmaltat normal', es: 'Pedicura completa esmaltado normal'}, 40, 60], [{ca: 'Pedicura semipermanent', es: 'Pedicura semipermanente'}, 43, 60]]},
+  {n: {ca: 'Mirada', es: 'Mirada'}, img: '1589710751893-f9a6770ad71b', it: [
+    [{ca: 'Lifting i tint de pestanyes', es: 'Lifting y tinte de pestañas'}, 55, 60], [{ca: 'Lifting de pestanyes', es: 'Lifting de pestañas'}, 45, 45], [{ca: 'Tint de celles', es: 'Tinte de cejas'}, 20, 30]]},
+  {n: {ca: 'Depilació', es: 'Depilación'}, img: '1761718210089-ba3bb5ccb54f', it: [
+    [{ca: 'Celles (cera)', es: 'Cejas (cera)'}, 8, 10], [{ca: 'Llavi superior', es: 'Labio superior'}, 7, 5], [{ca: 'Engonals normal', es: 'Ingles normal'}, 8, 15], [{ca: 'Home: celles, orelles o nas', es: 'Hombre: cejas, orejas o nariz'}, 7, 10],
+    [{ca: 'Làser aixelles', es: 'Láser axilas'}, 31, 10], [{ca: 'Làser aixelles + engonals', es: 'Láser axilas + ingles'}, 58, 30], [{ca: 'Làser cames senceres', es: 'Láser piernas enteras'}, 50, 45], [{ca: 'Làser ½ cames + aixelles + engonals', es: 'Láser ½ piernas + axilas + ingles'}, 67, 50], [{ca: 'Làser esquena sencera', es: 'Láser espalda entera'}, 75, 30]]},
+];
+let cat = 0;
+function renderCarta() {
+  $('#tabs').innerHTML = CARTA.map((c, i) => `<button class="tab" role="tab" data-cat="${i}" aria-selected="${i === cat}">${tt(c.n)}</button>`).join('');
+  const c = CARTA[cat], img = $('#mImg');
+  img.style.opacity = 0; setTimeout(() => { img.src = U(c.img); img.alt = tt(c.n); img.onload = () => img.style.opacity = 1; }, 200);
+  $('#items').innerHTML = c.it.map(([n, p, m, from], k) => `<li class="item" style="--k:${k}"><b>${tt(n)}</b><span class="pr">${from ? t('from') : ''}${euro(p)}</span><small>${m} min</small></li>`).join('');
+}
+
+/* ---------- Opinions ---------- */
+const OP = [
+  [{ca: 'Ambient molt tranquil, la Laila molt simpàtica, música relaxant durant el tractament… tot de 10. Repetiré.', es: 'Ambiente muy tranquilo, Laila muy simpática, música relajante durante el tratamiento… todo de 10. Repetiré.'}, 'Esther', 'Treatwell'],
+  [{ca: 'Sempre genial! Local, ambient, tracte molt proper… la Laila és un encant.', es: '¡Siempre genial! Local, ambiente, trato muy cercano… Laila es un encanto.'}, 'Joaquima', 'Treatwell'],
+  [{ca: 'Hi he anat per primera vegada i la Ingrid m’ha fet un massatge relaxant i descontracturant.', es: 'He ido por primera vez y Ingrid me ha hecho un masaje relajante y descontracturante.'}, 'Carol', 'Google'],
+  [{ca: 'És una professional i el tracte personal és molt humà.', es: 'Es una profesional y el trato personal es muy humano.'}, 'Treatwell', 'Treatwell'],
+  [{ca: 'M’he sentit molt ben tractat. Molt considerada, curosa, atenta i amable.', es: 'Me he sentido muy bien tratado. Muy considerada, cuidadosa, atenta y amable.'}, 'Edgar', 'Treatwell'],
+];
+const renderOP = () => { $('#revs').innerHTML = OP.map(([q, a, s]) => `<figure class="rcard"><blockquote>“${tt(q)}”</blockquote><cite><span class="src">${s}</span>${a === s ? '' : a}</cite></figure>`).join(''); };
+
+/* ---------- Horari (Google) ---------- */
+const HOURS = [[], [[10, 19]], [[10, 19]], [[10, 19]], [[10, 19]], [[10, 19]], []];
+const DOW = {Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6};
+function madrid() { const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {timeZone: 'Europe/Madrid', weekday: 'short', hour: 'numeric', minute: 'numeric', hourCycle: 'h23'}).formatToParts(new Date()).map(x => [x.type, x.value])); return {d: DOW[p.weekday], h: (+p.hour % 24) + (+p.minute) / 60}; }
+const fmt = h => `${Math.floor(h)}:${String(Math.round((h % 1) * 60)).padStart(2, '0')}`;
+function paintHours() {
+  const {d, h} = madrid(), td = HOURS[d], D = t('days');
+  let s, open = false;
+  const cur = td.find(([a, b]) => h >= a && h < b);
+  if (cur) { s = t('open', {h: fmt(cur[1])}); open = true; }
+  else { const later = td.find(([a]) => h < a); if (later) s = t('opens', {h: fmt(later[0])}); else for (let k = 1; k <= 7; k++) { const dd = (d + k) % 7; if (HOURS[dd].length) { s = k === 1 ? t('opensT', {h: fmt(HOURS[dd][0][0])}) : t('opensD', {d: D[dd].toLowerCase(), h: fmt(HOURS[dd][0][0])}); break; } } }
+  $('#status').classList.toggle('open', open); $('#stTxt').textContent = s;
+  $('#htable').innerHTML = [1, 2, 3, 4, 5, 6, 0].map(k => `<tr class="${k === d ? 'today' : ''}"><td data-today="${t('today')}">${D[k]}</td><td>${HOURS[k].length ? HOURS[k].map(([a, b]) => `${fmt(a)} – ${fmt(b)}`).join(' · ') : t('closed')}</td></tr>`).join('');
+}
+
+/* ---------- Render ---------- */
+let mw = [];
+function renderAll(anim) {
+  document.documentElement.lang = L; document.title = t('title');
+  $$('[data-i]').forEach(el => el.textContent = t(el.dataset.i));
+  $$('[data-ih]').forEach(el => el.innerHTML = t(el.dataset.ih));
+  $$('[data-ia]').forEach(el => el.setAttribute('aria-label', t(el.dataset.ia)));
+  $$('[data-ialt]').forEach(el => el.alt = t(el.dataset.ialt));
+  $$('[data-l]').forEach(b => b.setAttribute('aria-pressed', b.dataset.l === L));
+  $('#heroH').innerHTML = t('hero.h').map((l, i) => `<span class="l"><span style="--d:${.15 + i * .12}s">${l}</span></span>`).join('');
+  const MQ = t('mq'); $('#mq').innerHTML = [...MQ, ...MQ, ...MQ].map(s => `<span>${s}<i>🌾</i></span>`).join('');
+  $('#maniQ').innerHTML = t('mani').split(' ').map(w => w.startsWith('*') ? `<span class="w e">${w.slice(1)}</span>` : `<span class="w">${w}</span>`).join(' ');
+  mw = $$('#maniQ .w');
+  renderBody(false); renderOils(); renderCarta(); renderOP(); paintHours();
+}
+renderAll(false);
+
+/* ---------- Reveal ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => { if (!e.isIntersecting) return; e.target.classList.add('in'); io.unobserve(e.target); }), {threshold: .15, rootMargin: '0px 0px -6% 0px'});
+$$('[data-reveal]').forEach(el => io.observe(el));
+setInterval(paintHours, 60000);
+
+/* ---------- Intro ---------- */
+setTimeout(() => { $('#intro').classList.add('done'); document.body.classList.add('ready'); setTimeout(() => $('#intro').remove(), 1400); }, RM ? 0 : 2000);
+
+/* ---------- Interaccions ---------- */
+document.addEventListener('click', e => {
+  const l = e.target.closest('[data-l]'); if (l && l.dataset.l !== L) { L = l.dataset.l; try { localStorage.setItem('laila-lang', L); } catch (er) {} renderAll(true); return; }
+  const z = e.target.closest('[data-z]'); if (z) { zone = z.dataset.z; $('#preg').checked = false; renderBody(true); return; }
+  const o = e.target.closest('[data-oil]'); if (o) { oil = +o.dataset.oil; renderOils(); return; }
+  const c = e.target.closest('[data-cat]'); if (c) { cat = +c.dataset.cat; renderCarta(); return; }
+  if (e.target.closest('#card')) $('#card').classList.toggle('flip');
+});
+document.addEventListener('keydown', e => {
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.zone,#card')) { e.preventDefault(); e.target.dispatchEvent(new MouseEvent('click', {bubbles: true})); }
+});
+$('#preg').addEventListener('change', () => renderBody(true));
+const scrollRev = dir => { const tr = $('#revs'); tr.scrollBy({left: dir * tr.clientWidth * .8, behavior: RM ? 'auto' : 'smooth'}); };
+$('#rPrev').onclick = () => scrollRev(-1); $('#rNext').onclick = () => scrollRev(1);
+
+/* ---------- Menú mòbil ---------- */
+const mnav = $('#mnav'), burger = $('#burger');
+const setMenu = o => { mnav.classList.toggle('open', o); mnav.setAttribute('aria-hidden', !o); burger.setAttribute('aria-expanded', o); document.body.style.overflow = o ? 'hidden' : ''; };
+burger.onclick = () => setMenu(true); $('#mclose').onclick = () => setMenu(false);
+$$('#mnav a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+/* ---------- Scroll ---------- */
+const nav = $('#nav'), fab = $('#fab'), mq = $('#mq'), mani = $('#maniQ');
+let lastY = scrollY, vel = 0, mqX = 0;
+function frame() {
+  const y = scrollY, vh = innerHeight;
+  vel += ((y - lastY) - vel) * .12; lastY = y;
+  nav.classList.toggle('solid', y > 30);
+  nav.classList.toggle('hide', y > vh && vel > 4 && !mnav.classList.contains('open'));
+  fab.classList.toggle('show', y > vh * .8);
+  if (!RM) { mqX -= .5 + Math.min(Math.abs(vel) * .25, 10); const third = mq.scrollWidth / 3; if (third && -mqX > third) mqX += third; mq.style.transform = `translateX(${mqX}px)`; }
+  const r = mani.getBoundingClientRect(), p = Math.min(1, Math.max(0, (vh * .85 - r.top) / (r.height + vh * .3)));
+  const lit = Math.round(p * mw.length); mw.forEach((w, k) => w.classList.toggle('on', k < lit));
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
